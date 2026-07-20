@@ -17,3 +17,7 @@ app.use(express.urlencoded({
         console.log('Server started');
     })
 })
+.catch((err) => {
+    console.log(err);
+})
+
