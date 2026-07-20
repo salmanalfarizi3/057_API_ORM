@@ -1,9 +1,9 @@
-module.exports = (sequelize, DataTypes) => {
-    const Komik = sequelize.define('Komik', {
+module.exports = (sequelize, DataTypes) => {//
+    const Komik = sequelize.define('Komik', {//
         id: {
-            type: DataTypes.INTEGER,
-            primaryKey: true,
-            autoIncrement: true
+            type: DataTypes.INTEGER,////
+            primaryKey: true,//
+            autoIncrement: true//
         },
         title: {
             type: DataTypes.STRING,
@@ -16,5 +16,5 @@ module.exports = (sequelize, DataTypes) => {
         }
 
     });
-    return Komik;
+    return Komik; //
 };
